@@ -1,0 +1,17 @@
+DROP TABLE match IF EXISTS;
+create table match(
+ id BIGINT NOT NULL PRIMARY KEY,
+ city VARCHAR(200),
+ date VARCHAR(20),
+ player_Of_Match VARCHAR(200),
+ venue VARCHAR(200),
+ team1 VARCHAR(200),
+ team2 VARCHAR(200),
+ toss_Winner VARCHAR(200),
+ toss_Decision VARCHAR(200),
+ match_Winner VARCHAR(200),
+ result VARCHAR(200),
+ result_Margin VARCHAR(200),
+ umpire1 VARCHAR(200),
+ umpire2 VARCHAR(200)
+);
